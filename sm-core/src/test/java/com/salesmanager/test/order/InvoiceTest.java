@@ -24,7 +24,7 @@ public class InvoiceTest extends com.salesmanager.test.common.AbstractSalesManag
 		//create a product
 	    ProductType generalType = productTypeService.getProductType(ProductType.GENERAL_TYPE);
 	    
-	    Language en = languageService.getByCode("en");
+	    Language en = languageService.getByCode("vi");
 	    
 	    
 	    *//**

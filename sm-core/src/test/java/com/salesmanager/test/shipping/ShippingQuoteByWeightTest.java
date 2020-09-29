@@ -59,7 +59,7 @@ public class ShippingQuoteByWeightTest extends com.salesmanager.test.common.Abst
 	//@Test
 	public void testGetCustomShippingQuotesByWeight() throws ServiceException {
 
-	    Language en = languageService.getByCode("en");
+	    Language en = languageService.getByCode("vi");
 	    Country country = countryService.getByCode("CA");
 	    Zone zone = zoneService.getByCode("QC");
 

@@ -54,7 +54,7 @@ public class ProductTypeApi {
       notes = "", produces = "application/json", response = List.class)
   @ApiImplicitParams({
       @ApiImplicitParam(name = "store", dataType = "String", defaultValue = "DEFAULT"),
-      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "en")})
+      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "vi")})
   public ReadableProductTypeList list(
 	  @RequestParam(name="count", defaultValue="10") int count,
 	  @RequestParam(name="page", defaultValue="0") int page,
@@ -72,7 +72,7 @@ public class ProductTypeApi {
       notes = "", produces = "application/json", response = ReadableProductType.class)
   @ApiImplicitParams({
       @ApiImplicitParam(name = "store", dataType = "String", defaultValue = "DEFAULT"),
-      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "en")})
+      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "vi")})
   public ReadableProductType get(
 	  @PathVariable String code,
       @ApiIgnore MerchantStore merchantStore,
@@ -87,7 +87,7 @@ public class ProductTypeApi {
       notes = "", produces = "application/json", response = Entity.class)
   @ApiImplicitParams({
       @ApiImplicitParam(name = "store", dataType = "String", defaultValue = "DEFAULT"),
-      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "en")})
+      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "vi")})
   public Entity post(
 	  @RequestBody PersistableProductType type,
       @ApiIgnore MerchantStore merchantStore,
@@ -105,7 +105,7 @@ public class ProductTypeApi {
       notes = "", produces = "application/json", response = Void.class)
   @ApiImplicitParams({
       @ApiImplicitParam(name = "store", dataType = "String", defaultValue = "DEFAULT"),
-      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "en")})
+      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "vi")})
   public void put(
 	  @RequestBody PersistableProductType type,
 	  @PathVariable Long id,
@@ -121,7 +121,7 @@ public class ProductTypeApi {
       notes = "", produces = "application/json", response = Void.class)
   @ApiImplicitParams({
       @ApiImplicitParam(name = "store", dataType = "String", defaultValue = "DEFAULT"),
-      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "en")})
+      @ApiImplicitParam(name = "lang", dataType = "String", defaultValue = "vi")})
   public void delete(
 	  @PathVariable Long id,
       @ApiIgnore MerchantStore merchantStore,

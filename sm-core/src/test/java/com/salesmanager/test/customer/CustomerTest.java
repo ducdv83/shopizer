@@ -33,7 +33,7 @@ public class CustomerTest extends com.salesmanager.test.common.AbstractSalesMana
 	public void createCustomer() throws ServiceException {
 		
 		
-		Language en = languageService.getByCode("en");
+		Language en = languageService.getByCode("vi");
 		
 		
 		MerchantStore store = merchantService.getByCode(MerchantStore.DEFAULT_STORE);

@@ -31,7 +31,7 @@ public class MerchantStoreApiIntegrationTest extends ServicesTestSupport {
   
   private static final String TEST_STORE_CODE = "test";
   private static final String CURRENCY = "CAD";
-  private static final String DEFAULT_LANGUAGE = "en";
+  private static final String DEFAULT_LANGUAGE = "vi";
 
   @Inject
   private TestRestTemplate testRestTemplate;

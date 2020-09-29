@@ -79,7 +79,7 @@ public class ServicesTestSupport {
       m.setOrder(0);
       
       ManufacturerDescription desc = new ManufacturerDescription();
-      desc.setLanguage("en");
+      desc.setLanguage("vi");
       desc.setName(code);
       
       m.getDescriptions().add(desc);
@@ -99,7 +99,7 @@ public class ServicesTestSupport {
 
 
       CategoryDescription description = new CategoryDescription();
-      description.setLanguage("en");
+      description.setLanguage("vi");
       description.setName(code);
 
 
@@ -123,7 +123,7 @@ public class ServicesTestSupport {
       
       ProductDescription description = new ProductDescription();
       description.setName(code);
-      description.setLanguage("en");
+      description.setLanguage("vi");
       
       product.getDescriptions().add(description);
       
@@ -144,7 +144,7 @@ public class ServicesTestSupport {
         newCategory.setParent(parent);
 
         final CategoryDescription description = new CategoryDescription();
-        description.setLanguage("en");
+        description.setLanguage("vi");
         description.setName("test-cat");
         description.setFriendlyUrl("test-cat");
         description.setTitle("test-cat");
@@ -176,7 +176,7 @@ public class ServicesTestSupport {
         ProductDescription productDescription = new ProductDescription();
         productDescription.setDescription("TEST");
         productDescription.setName("TestName");
-        productDescription.setLanguage("en");
+        productDescription.setLanguage("vi");
         product.getDescriptions().add(productDescription);
         
         

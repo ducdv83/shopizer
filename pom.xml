@@ -218,7 +218,13 @@
 				<artifactId>mysql-connector-java</artifactId>
 				<version>${mysql-jdbc-version}</version>
 			</dependency>
-
+			<!-- ducdv5 added -->
+			<dependency>
+			  <groupId>org.postgresql</groupId>
+			  <artifactId>postgresql</artifactId>
+			  <version>42.2.5</version>
+			</dependency> 
+			<!-- ducdv5 added -->
 			<!-- Google Map API -->
 			<dependency>
 				<groupId>com.google.maps</groupId>
